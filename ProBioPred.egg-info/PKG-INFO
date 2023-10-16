@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ProBioPred
+Version: 1.0.0
+Summary: Probiotic candidate prediction
+Home-page: https://github.com/microDM/ProBioPred
+Maintainer: Dattatray Mongad
+
+ProBioPred can predict the potential probiotic candidates from genome sequence based on Support Vector Machine (SVM) trained models

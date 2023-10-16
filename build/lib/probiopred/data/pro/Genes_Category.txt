@@ -1,0 +1,19 @@
+resistance_acid = qw('dltA gadC LBA0996 LBA1272 LBA1524 rrp1 clpL LBA0995 LBA0867')
+resistance_bile = qw('clpL LBA0995 LBA0867 cdpA clpE LBA1427 LBA1428 LBA1429 LBA1430 LBA1431 LBA1432 dps slp slpA')
+adherance = qw('slpA lspA Isp IspD LBA1663-4 fbpA mub srtA')
+competitive = qw('srtA msa prtP copA gtfA inu lp_1403 pts14C xylA met')
+persistance = qw('clpC LJ1021 LJ1654 LJ1656 lp_2940 luxS msrB')
+#add_on - 
+hydrolyze_bile_salt = qw('bsh1 bshA bshB LJ0056')
+#category2
+biofilm = qw('dltA gtfA inu dltD wzb iamA')
+growth = qw('bfrA fosE treC msmE')
+adaption = qw('Lr1584 Lr1265')
+#category3
+osmotic = qw('cdpA slpA slp')
+anti_bactrial= qw('luxS labT abpT')
+immune_modulation= qw('dltD dltB cps1A-J')
+simulated_gastricjuice = qw('dltD')
+
+
+
