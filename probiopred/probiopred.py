@@ -30,7 +30,7 @@ def makeBlastDB(genomeFile,out):
     Returns:
         [boolean] -- [True if success in making blast DB or subprocess error object]
     """
-    cmd = "makeblastdb -input_type fasta -dbtype nucl -title genomedb -out " + out + " -in " + genomeFile
+    cmd = "makeblastdb -input_type fasta -dbtype nucl -title genomedb -out " + out + " -in " + genomeFile.rstrip()
     makeblastdb = subprocess.Popen(cmd,shell=True,stderr=subprocess.PIPE,stdout=subprocess.PIPE)
     makeblastdbStderr = makeblastdb.stderr.readlines()
     if(len(makeblastdbStderr) == 0):
