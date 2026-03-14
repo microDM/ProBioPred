@@ -8,7 +8,7 @@ import subprocess
 import pandas as pd
 
 parser = argparse.ArgumentParser(description="Wrapper for running ProBioPred. Searches for "
-                                             "probiotic, virulent and antibiotic resistence "
+                                             "probiotic, virulent and antibiotic resistance "
                                              "genes in query genome. Then predicts the probability "
                                              "score of genome being probiotic or non-probiotic "
                                              "based on SVM model.")

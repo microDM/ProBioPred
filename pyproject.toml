@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ProBioPred"
+version = "1.0.0"
+description = "Probiotic candidate prediction from genome sequences using SVM models"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Dattatray Mongad"}
+]
+keywords = ["probiotics", "bioinformatics", "SVM", "genome"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "biopython>=1.81",
+    "pandas>=2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/microDM/ProBioPred"
+Repository = "https://github.com/microDM/ProBioPred"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["probiopred*"]
+
+[tool.setuptools.package-data]
+probiopred = ["data/**/*"]
